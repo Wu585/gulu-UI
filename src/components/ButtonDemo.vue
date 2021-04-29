@@ -14,6 +14,13 @@
     <Button size="normal">普通</Button>
     <Button size="small">小小小</Button>
   </div>
+  <h1>示例3</h1>
+  <div>
+    <Button>你好</Button>
+    <Button level="main">主要文字</Button>
+    <Button level="normal">普通文字</Button>
+    <Button level="danger">危险文字</Button>
+  </div>
 </template>
 
 <script lang="ts">
