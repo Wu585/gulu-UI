@@ -31,7 +31,7 @@ import {inject, Ref} from 'vue';
 export default {
   components: {TopNav},
   setup() {
-    const asideVisible = inject<Ref<boolean>>('xxx');
+    const asideVisible = inject<Ref<boolean>>('asideVisible');
     return {asideVisible};
   }
 };
