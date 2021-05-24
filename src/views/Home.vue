@@ -80,6 +80,7 @@ $color: #007974;
   > ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     > li {
       width: 400px;
